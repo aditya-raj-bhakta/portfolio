@@ -1,0 +1,32 @@
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #dce2e200;
+    color: #ffffffba;
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    font-family: "Cormorant Garamond", serif;
+}
+.nav{
+    all: unset;
+    display: flex;
+    gap: 60px;
+    color: #fff;
+     user-select: none;
+}
+
+a{
+    all: unset;
+    cursor: pointer;
+     user-select: none;
+  -webkit-user-select: none;
+  -webkit-user-drag: none;
+    
+}
